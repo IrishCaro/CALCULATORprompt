@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script src="calculatortwo.js"></script>  
+    </head>
+    <body bgcolor="pink">
+     <p>
+        ADDITION
+        <input id="add1" type="number">
+        +
+        <input id="add2" type="number">
+        =
+        <input id="sum" type="number">
+        <button onclick="let result = addi(document.getElementById('add1').value,
+                                           document.getElementById('add2').value);
+                                           document.getElementById('sum').value=result;">ADD</button>
+                                           
+        <br><br>
+                                          
+
+        <p> 
+        SUBTRACTION
+        <input id="sub1" type="number">
+        -
+        <input id="sub2" type="number">
+        =
+        <input id="sum1" type="number">
+        <button onclick="sub()">SUBTRACT</button>
+        </p>
+        <br><br>
+     
+        <p> 
+         MULTIPLICATION
+         <input id="multi1" type="number">
+         *
+         <input id="multi2" type="number">
+         =
+         <input id="sum2" type="number">
+         <button onclick="multi()">MULTIPLY</button>          
+         </p>
+         <br><br>
+
+         <p> 
+            DIVISION
+            <input id="div1" type="number">
+            /
+            <input id="div2" type="number">
+            =
+            <input id="sum3" type="number">
+            <button onclick="div()">DIVIDE</button>          
+            </p>
+            <br><br>
+         </p>
+              
+    </body>
+</html>
